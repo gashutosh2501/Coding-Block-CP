@@ -2,7 +2,7 @@
 #include<vector>
 using  namespace std;
 #define int long long
-#define mod 1000000001
+#define mod 1000000000
 int k;
 int n;
 vector<int>a, b, c;
