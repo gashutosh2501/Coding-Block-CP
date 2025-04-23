@@ -33,7 +33,7 @@ void Update(vector<int> &tree, int ss, int se, int i, int increment, int index) 
 	if (i < ss || i > se) return;
 
 	if (ss == se) {
-		tree[index] += increment;
+		tree[index] = increment;
 		return;
 	}
 
