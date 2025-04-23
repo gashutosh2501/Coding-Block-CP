@@ -54,8 +54,13 @@ void Update(int *tree, int ss, int se, int i, int increment, int index) {
 
 
 	//leaf Node:
-	if (ss == se) {
-		tree[index] += increment;
+	if (ss == se) 
+	{
+		/*
+  			this should be tree[index]=increment only because it is a point update.
+     			it should not  be +=increment rather it should be =increment .
+		*/
+		tree[index] = increment;
 		return;
 	}
 
