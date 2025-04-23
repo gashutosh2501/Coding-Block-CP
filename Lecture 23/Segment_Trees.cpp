@@ -55,7 +55,7 @@ void Update(int *tree, int ss, int se, int i, int increment, int index) {
 
 	//leaf Node:
 	if (ss == se) {
-		tree[index] += increment;
+		tree[index] = increment;
 		return;
 	}
 
