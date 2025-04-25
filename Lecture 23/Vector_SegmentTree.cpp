@@ -116,7 +116,11 @@ int QueryLazy(vector<int> &tree, int ss, int se, int l, int r, int index) {
 	return min(left, right);
 }
 
-int main() {
+int main() 
+{
+	ios_base::sync_with_stdio(false);
+    	cin.tie(NULL);
+	
 	vector<int> a = {5, 2, 7, 1, 3, 9};
 	int n = a.size();
 	vector<int> tree(4 * n + 1);
