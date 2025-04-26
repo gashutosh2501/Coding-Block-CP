@@ -1,5 +1,5 @@
-#include<iostream>
-#include<climits>
+#include<bits/stdc++.h>
+#define int long long
 using  namespace std;
 
 
@@ -179,7 +179,7 @@ int QueryLazy(int *tree, int ss, int se, int l, int r, int index) {
 }
 
 
-int main() {
+int32_t main() {
 
 	int a[] {5, 2, 7, 1, 3, 9};
 	int n = sizeof(a) / sizeof(int);
