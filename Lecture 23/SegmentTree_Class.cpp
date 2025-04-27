@@ -16,7 +16,7 @@ public:
 		lazy.resize(4 * n + 1, 0);
 		combine = _combine;
 		defaultValue = _defaultValue;
-		BuildTree(a, 0, n - 1, 1);
+		BuildTree(a, 1, n , 1);
 	}
 
 	void BuildTree(vector<int> &a, int s, int e, int index) {
