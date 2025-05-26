@@ -1,1 +1,1 @@
-# You will find your codes here.
+# Code template for CP and fun xD
